@@ -23,7 +23,7 @@ public class UserController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String indexLogin() {
-        return "login/login1";
+        return "login/login";
     }
 
     @ResponseBody
