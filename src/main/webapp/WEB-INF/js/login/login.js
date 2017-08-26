@@ -21,7 +21,7 @@ var handler1 = function (captchaObj) {
     // 更多接口参考：http://www.geetest.com/install/sections/idx-client-sdk.html
 };
 $.ajax({
-    url: "gt/register1?t=" + (new Date()).getTime(), // 加随机数防止缓存
+    url: "StartCaptcha?t=" + (new Date()).getTime(), // 加随机数防止缓存
     type: "get",
     dataType: "json",
     success: function (data) {
@@ -41,7 +41,7 @@ $.ajax({
 });
 
 
-//ajax提交
+/*//ajax提交
 
 
 var handler2 = function (captchaObj) {
@@ -100,4 +100,4 @@ $.ajax({
             // 更多配置参数请参见：http://www.geetest.com/install/sections/idx-client-sdk.html#config
         }, handler2);
     }
-});
+});*/

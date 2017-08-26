@@ -16,30 +16,29 @@
     <title>gt-node-sdk-demo</title>
 </head>
 <body>
-<h1>评论登陆</h1>
-<hr>
-<form action="${ctx}/login" method="post">
 
+<form>
+    <h2>滑动demo，使用ajax进行二次验证</h2>
     <br>
     <div>
-        <label for="username1">用户名：</label>
-        <input class="inp" id="username1" type="text" value="admin">
+        <label for="username2">用户名：</label>
+        <input class="inp" id="username2" type="text" value="极验验证">
     </div>
     <br>
     <div>
-        <label for="password1">密码：</label>
-        <input class="inp" id="password1" type="password" value="123456">
+        <label for="password2">密码：</label>
+        <input class="inp" id="password2" type="password" value="123456">
     </div>
     <br>
     <div>
         <label>完成验证：</label>
-        <div id="captcha1">
-            <p id="wait1" class="show">正在加载验证码......</p>
+        <div id="captcha2">
+            <p id="wait2" class="show">正在加载验证码......</p>
         </div>
     </div>
     <br>
-    <p id="notice1" class="hide">请先完成验证</p>
-    <input class="btn" id="submit1" type="submit" value="提交">
+    <p id="notice2" class="hide">请先完成验证</p>
+    <input class="btn" id="submit2" type="submit" value="提交">
 </form>
 
 </body>
